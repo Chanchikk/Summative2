@@ -1,0 +1,148 @@
+#menu{
+	width:100%;
+	
+	background:white;
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+#menuimg{
+	width: 50px;
+	height: 100%;
+}
+#menuimg img{
+	width:100%;
+}
+#submenu{
+	background: white;
+	transform: translate(0, 0%);	
+	width: 10%;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.item a{
+	text-decoration: none;
+	color: #282828;
+	display: block;
+	font-size: 45px;
+	
+	
+}
+#invisible{
+
+
+	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	bottom: -110px;
+	left: 0;
+	display: none;
+	z-index: 1;
+	
+	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#green{
+	
+	background:#28CD13;
+	height:300px;
+	width: 100%;
+	margin-left: 0px;
+	position: relative;
+	z-index: -2;
+	}
+#divwimg{
+	height:100%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+body{
+	margin:0;
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	flex-direction: column ;
+	align-items: center;
+	
+}
+#imghand{
+	height: 600px;
+}
+#yellow{
+	display: flex;
+	background:#FFFB44;
+	height:65%;
+	width: 93%;
+	justify-content: center;
+	align-content: flex-end;
+	position: absolute;
+	top: 191px;
+	right: -49px;
+	z-index: -1;
+}
+#goal4{
+	width: 640px;
+	height: 440px;
+	background-image: url('photos/hand.jfif');
+	background-size: 100% 100%;
+	position: relative;	
+}
+
+#goal4 p{
+	position: absolute;
+	bottom: -50px;
+	right: 16px;
+	color: white;
+	font-size: 55px;
+	text-align: left;
+	line-height: 0.9;
+}
+#title {
+	font-size: 100px;
+	margin: 0;
+}
+#boxtitle{
+	margin-top: 250px;
+	width:85%;
+}
+#logo{
+	width: 75%;
+}
+#red{
+	width:86%;
+	height: 1300px;
+	background-color: #D22333;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+#white{
+	width: 90%;
+	height: 97%;
+	background-color: white;
+	border-radius: 50px;
+	list-style-type: square;
+}
+.text {
+	margin-left: 25px;
+
+	font-size: 40px;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
